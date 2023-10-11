@@ -1,0 +1,268 @@
+* {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  flex-wrap: wrap;
+
+}
+
+
+header {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  flex-wrap: wrap;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+}
+li a {
+  opacity: 0.9; 
+  color: seashell;
+  text-decoration: underline;
+  flex-wrap: wrap;
+
+}
+.parent {
+  height: 69px;;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.child1 img {
+  height: 50px;
+  opacity: 0.9;
+  margin-left: 10px;
+  flex-wrap: wrap;
+
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+nav li {
+  margin: auto 10px;
+  flex-wrap: wrap;
+
+}
+.child2, .child1 {
+  align-self: center;
+  flex-wrap: wrap;
+
+}
+
+.container {
+  height: 700px;
+  padding-top: 100px;
+}
+
+section .container {
+  background-size: cover;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1wrs75g*_ga*ODk2OTEyNDk2Mi4xNjc1NzU4NTQ2*_ga_3LRZM6TM9L*MTY3NzczOTEyMS42My4xLjE2Nzc3NDAxMzEuNjAuMC4w");
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+}
+.container .main-text {
+  margin: auto -20px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+.container .main-text h2 {
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: bold;
+  flex-wrap: wrap;
+
+}
+.container .main-text h4 {
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+#grandparent {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 100%;
+  
+}
+
+.parent-1 h2 {
+  font-family: Helvetica;
+  color: seashell;
+  flex-wrap: wrap;
+  margin: auto;  
+  padding-top: 100px;
+}
+.parent-1 h4 {
+  font-family: Helvetica;
+  color: seashell;
+  flex-wrap: wrap;
+  margin: auto;  
+}
+
+.parent-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.grandchild img {
+  max-width: 300px;
+  max-height: 200px;
+  margin: 10px;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+  flex-direction: column;
+}
+.grandchild h4 {
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  margin: 10px;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+  flex-direction: column;
+}
+#last-container {
+  padding-top: 100px;
+}
+
+.flex-container {
+  max-width: 1200px;
+  height: 500px;
+  padding: 25px;
+  margin: 0 25px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+  flex-direction: column;
+
+}
+
+.flex-box {
+  margin: 0;
+  background-size: cover;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1i0rl4n*_ga*ODk2OTEyNDk2Mi4xNjc1NzU4NTQ2*_ga_3LRZM6TM9L*MTY3NzgyMzgzOS42Ni4wLjE2Nzc4MjM4MzkuNjAuMC4w");
+  background-repeat: no-repeat;
+  background-position: right;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+ 
+}
+
+.box {
+  width: 300px;
+  margin: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+
+
+}
+
+.box h3 {
+  font-family: Helvetica;
+  color: seashell;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;  
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+}
+.box p {
+  font-family: Helvetica;
+  color: seashell;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;  
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-shrink: 3;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  color: seashell;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 3;
+  flex-shrink: 3;
+
+}
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 200px;
+    flex-grow: 3;
+    flex-shrink: 3;
+  }
+}
+
+footer .contact {
+  height: 200px;
+  text-align: center;
+  
+}
+
+.contact h4 {
+  margin-top: -40px;
+  color: seashell;
+}
+
+.contact h5 {
+  margin-top: 50px;
+  color: seashell;
+}
+.last-text h5 {
+  margin-top: 50px;
+  color: seashell;
+}
